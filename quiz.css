@@ -1,8 +1,70 @@
 body{
-    background-color: darkred;
+    background-color: darkblue;
     display: flex;
  align-items: center;
  justify-content: center;
  font-family: "Sulphur+Point";
 }
 
+.container{
+    width: 800px; 
+    height: 500px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.game{
+    display: none;
+}
+
+.content{
+    padding: 50px;
+}
+
+.question{
+    font-size: 40px;
+    text-align: center;
+}
+
+.answer{
+    font-size: 30px;
+    margin-bottom: 24px;
+    color: black;
+}
+
+.submit{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.result{
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.result h1{
+    font-size: 50px;
+}
+
+.correct{
+    color: green;
+}
+
+.wrong{
+    color: red;
+}
+
+.{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+}
