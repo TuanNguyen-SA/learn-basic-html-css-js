@@ -1,0 +1,14 @@
+.body{
+    background-color: rebeccapurple;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container{
+    background-color: azure;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+  width: 500px;
+  height: 800px;
+}
