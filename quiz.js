@@ -8,5 +8,13 @@ const data = [
 	 {answer: "thursday", isCorrect: false},
 	 {answer: "saturday", isCorrect: true},
 	],
-     },]
-      
+     },
+]
+
+
+function showResult() {
+	const res = document.querySelector('.result.hidden');
+	if (res.classList.contains('hidden')){
+		res.classList.remove('hidden')
+	}
+}    
