@@ -1,14 +1,47 @@
 .body{
-    background-color: rebeccapurple;
+    background-color: black;
     justify-content: center;
     justify-items: center;
 }
 
 .container{
-    background-color: azure;
+    background-color: black;
   justify-content: center;
   justify-items: center;
   gap: 20px;
   width: 500px;
   height: 800px;
+}
+
+.leftMenu {
+flex: 1;
+}
+
+.search{
+padding: 10px;
+width: 200px;
+border: 1px solid beige;
+}
+
+h1{
+  font-size: 30px;
+  color: black;
+  font-weight: 300;
+}
+
+.cats{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cat{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.content{
+flex: 4;
 }

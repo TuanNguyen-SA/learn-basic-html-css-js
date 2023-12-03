@@ -38,11 +38,6 @@ function nextPage(nextPageUrl) {
 }
 
 function showResult() {
-    // Your result logic here
-}
-
-
-function showResult() {
 	const res = document.querySelector('.result.hidden');
 	if (res.classList.contains('hidden')){
 		res.classList.remove('hidden')
@@ -78,3 +73,19 @@ let correctCount = 0
 let wrongCount = 0
 let total = 0
 let selectedAnswer;
+
+const playAgain = ()=>{
+let qIndex = 0
+let correctCount = 0
+let wrongCount = 0
+let total = 0
+let selectedAnswer;
+};
+
+play.addEventListener("click",()=>{
+	playAgain()
+});
+
+const showResult = ()=>{
+
+}	

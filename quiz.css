@@ -72,10 +72,10 @@ body{
 }
 
 .result{
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: white;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 120px;
     border: none;
 }
 
