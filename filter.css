@@ -1,11 +1,11 @@
-.body{
-    background-color: black;
+body {
+    background-color: white;
     justify-content: center;
     justify-items: center;
 }
 
 .container{
-    background-color: black;
+  background-color: black;
   justify-content: center;
   justify-items: center;
   gap: 20px;
@@ -44,4 +44,28 @@ h1{
 
 .content{
 flex: 4;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.img{
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.name{
+  font-weight: 300;
 }
